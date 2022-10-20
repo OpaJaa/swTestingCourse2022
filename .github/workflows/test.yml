@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 14.x, 15.x]
+        node-version: [ 14.x, 15.x, 16.x]
 
     steps:
       - uses: actions/checkout@v3
@@ -25,11 +25,10 @@ jobs:
       
       - run: npm ci
       #- run: npm run build --if-present
-      - run: npm install
       #- run: npm install --global mocha
       #- run: npm install --global chai
-      - run: make test-coverage
-      #- run: npm test
+      - run: npm test
+      #- run: npm test-coveralls
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
