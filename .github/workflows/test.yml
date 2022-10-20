@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run build --if-present
+      #- run: npm run build --if-present
       - run: npm install --global mocha
-      - run: npm test -- src/test
+      - run: npm install --global chai
+      - run: npm test -- /test
