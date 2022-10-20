@@ -26,4 +26,4 @@ jobs:
       #- run: npm run build --if-present
       - run: npm install --global mocha
       - run: npm install --global chai
-      - run: npm test -- /test
+      - run: npm test
