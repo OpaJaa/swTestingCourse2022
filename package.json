@@ -8,7 +8,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha -b -R spec",
+    "test": "mocha",
     "test-coveralls": "npm run test && shx cat ./coverage/lcov.info | node ./bin/coveralls.js --verbose"
   },
   "author": "",
