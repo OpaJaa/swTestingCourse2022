@@ -24,9 +24,11 @@ jobs:
       #- run: npm install --global chai
       - name: Run tests
         run: npm run test-c8
+        continue-on-error: true
       
       - name: Make coverage report and send to coveralls
         run: npm run c8-coveralls
+        continue-on-error: true
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
