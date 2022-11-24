@@ -13,7 +13,7 @@
     "c8-coverage": "c8 mocha && c8 report --reporter=html",
     "coveralls": "nyc report --reporter=lcovonly",
     "coverage": "nyc report --reporter=html --reporter=text-summary",
-    "c8-coveralls": "c8 mocha && c8 report --reporter=text-lcov | coveralls"
+    "c8-coveralls": "c8 mocha && c8 report --reporter=lcovonly | coveralls"
   },
   "author": "",
   "license": "MIT",
