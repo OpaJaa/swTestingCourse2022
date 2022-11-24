@@ -22,8 +22,10 @@ jobs:
       #- run: npm run build --if-present
       #- run: npm install --global mocha
       #- run: npm install --global chai
-      #- run: npm test-c8
-      - name: Run tests and use coveralls
+      - name: Run tests
+        run: npm test-c8
+      
+      - name: Make coverage report and send to coveralls
         run: npm run c8-coveralls
 
       - name: Coveralls
