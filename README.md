@@ -1,3 +1,21 @@
+Instructions:
+ - clone repo
+ - npm install
+ - npm test
+
+Units to be tested:
+- add.js                -> Valeria
+- capitalize.js         -> Valeria
+- chunks.js             -> Opa
+- countBy.js            -> Opa
+- difference.js         -> Opa
+- drop.js               -> Opa
+- filter.js             -> Valeria
+- isArrayLikeObject.js  -> Valeria
+- isEmpty.js            -> Valeria
+- memoize.js            -> Opa
+
+
 # Student template
 
 ## Purpose of this repository
@@ -11,3 +29,4 @@ and LICENSE file.
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
+
