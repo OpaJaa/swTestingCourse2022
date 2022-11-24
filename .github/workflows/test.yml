@@ -28,7 +28,7 @@ jobs:
       #- run: npm install --global mocha
       #- run: npm install --global chai
       #- run: npm test-c8
-      - run: npm c8-coveralls
+      - run: npm run c8-coveralls
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
