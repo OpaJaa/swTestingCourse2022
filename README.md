@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/OpaJaa/swTestingCourse2022/badge.svg?branch=main)](https://coveralls.io/github/OpaJaa/swTestingCourse2022?branch=main)
+
 Instructions:
  - clone repo
  - npm install
