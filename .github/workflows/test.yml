@@ -27,7 +27,7 @@ jobs:
         continue-on-error: true
       
       - name: Make coverage report and send to coveralls
-        run: npm run c8-coveralls
+        run: npm run c8-write
         continue-on-error: true
 
       - name: Coveralls
