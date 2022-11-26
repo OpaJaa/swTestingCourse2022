@@ -3,7 +3,7 @@
 Instructions:
  - clone repo
  - npm install
- - npm test
+ - npm run test-c8  -> runs all tests and creates coverage report
 
 To create Mochawesome test reports:
  - npm run testreport
