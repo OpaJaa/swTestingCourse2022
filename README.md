@@ -5,6 +5,9 @@ Instructions:
  - npm install
  - npm test
 
+To create Mochawesome test reports:
+ - npm run testreport
+
 Units to be tested:
 - add.js                -> Valeria
 - capitalize.js         -> Valeria

@@ -5,8 +5,8 @@
     "passes": 15,
     "pending": 0,
     "failures": 7,
-    "start": "2022-11-26T13:42:45.028Z",
-    "end": "2022-11-26T13:42:45.044Z",
+    "start": "2022-11-26T13:45:51.186Z",
+    "end": "2022-11-26T13:45:51.202Z",
     "duration": 16,
     "testsRegistered": 22,
     "passPercent": 68.18181818181817,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "46d3b4ed-7eb8-4739-8122-c3ce2675de5e",
+      "uuid": "a4fe5759-99ac-4be8-be8b-83e5b5cddbfe",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+          "uuid": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
           "title": "Add",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/add.test.js",
           "file": "/test/add.test.js",
@@ -38,7 +38,7 @@
               "title": "Adds zero to positive number",
               "fullTitle": "Add Adds zero to positive number",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "expect(add(0,3)).to.equal(3)",
               "err": {},
-              "uuid": "f873664f-0b25-4be3-8bf3-8867a964a8f2",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "2a7436a0-1fd7-4cd8-871b-58824e804f45",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -65,32 +65,14 @@
               "context": null,
               "code": "expect(add(3,0)).to.equal(3)",
               "err": {},
-              "uuid": "a19b6ce8-6e44-4c49-b96e-d29d8e6c194c",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "e60d0f97-b22a-423b-a630-b14ee6999b3b",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Adds zero to negative number",
               "fullTitle": "Add Adds zero to negative number",
-              "timedOut": false,
-              "duration": 0,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "expect(add(0,-3)).to.equal(-3)",
-              "err": {},
-              "uuid": "10b21121-5d13-4147-b7be-c03b626bf6d8",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Adds negative number to zero",
-              "fullTitle": "Add Adds negative number to zero",
               "timedOut": false,
               "duration": 1,
               "state": "passed",
@@ -99,10 +81,28 @@
               "fail": false,
               "pending": false,
               "context": null,
+              "code": "expect(add(0,-3)).to.equal(-3)",
+              "err": {},
+              "uuid": "e1a3be36-91b4-4762-b4cf-0ff75a20a130",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Adds negative number to zero",
+              "fullTitle": "Add Adds negative number to zero",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
               "code": "expect(add(-3,0)).to.equal(-3)",
               "err": {},
-              "uuid": "107f4d9c-e854-459b-a967-0a67a9822091",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "6024a9ec-4096-4fbb-a07f-2d679f419fe6",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -119,8 +119,8 @@
               "context": null,
               "code": "expect(add(3,6)).to.equal(9)",
               "err": {},
-              "uuid": "0846b6cf-cf4f-467b-aa94-a266da54760d",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "69737fce-177f-450c-93b7-fcffc3e9af60",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -137,8 +137,8 @@
               "context": null,
               "code": "expect(add(-3,-6)).to.equal(-9)",
               "err": {},
-              "uuid": "89929ecd-c2e9-42a7-9fcf-38cf9a86dbd9",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "0a024ebd-a0ba-4573-84c0-e3eb3ff3a828",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -159,8 +159,8 @@
                 "estack": "AssertionError: expected 'abc6' to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/add.test.js:27:29)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "bf7cf81d-d534-4420-8e0e-626237a69649",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "fb3a5b75-20df-4c87-976b-99f5d018ea2a",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -181,8 +181,8 @@
                 "estack": "AssertionError: expected 6 to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/add.test.js:30:28)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "7ba6d3c7-63b0-46f5-a2fc-10e50ff60f24",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "dadbeb90-79fb-4489-ab48-33e80b75a519",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -203,8 +203,8 @@
                 "estack": "AssertionError: expected 7 to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/add.test.js:33:28)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "c04d5118-3d27-47f7-afe1-0f0a2a4c4e65",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "f43e9763-7d09-4b41-bf3e-314fea3168e7",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -212,7 +212,7 @@
               "title": "Adds positive decimal number to positive decimal number",
               "fullTitle": "Add Adds positive decimal number to positive decimal number",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -221,8 +221,8 @@
               "context": null,
               "code": "expect(add(1.25,2.25)).to.equal(3.5)",
               "err": {},
-              "uuid": "781badaa-ef72-4abe-9275-bd4a18c65cf5",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "4b9dae28-5fe8-4b0b-98eb-bc5c067eb692",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -239,8 +239,8 @@
               "context": null,
               "code": "expect(add(1.5,-2.25)).to.equal(-0.75)",
               "err": {},
-              "uuid": "ad9c6396-b6b6-47f3-aaab-59b2e2ffe658",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "d698c7c5-3976-4710-a27f-a17f442157da",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             },
@@ -257,38 +257,38 @@
               "context": null,
               "code": "expect(add(-1.5,-2)).to.equal(-3.5)",
               "err": {},
-              "uuid": "11b63fe9-2c0d-41b1-b42c-402c98a5fecd",
-              "parentUUID": "b788cdd1-45d1-44c5-b7e2-be6cf8cf640b",
+              "uuid": "4ee9091a-eb76-49e7-a0b1-3df791865ba9",
+              "parentUUID": "87e2464e-ed20-4559-84ef-6479cbe3a24a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f873664f-0b25-4be3-8bf3-8867a964a8f2",
-            "a19b6ce8-6e44-4c49-b96e-d29d8e6c194c",
-            "10b21121-5d13-4147-b7be-c03b626bf6d8",
-            "107f4d9c-e854-459b-a967-0a67a9822091",
-            "0846b6cf-cf4f-467b-aa94-a266da54760d",
-            "89929ecd-c2e9-42a7-9fcf-38cf9a86dbd9",
-            "781badaa-ef72-4abe-9275-bd4a18c65cf5",
-            "ad9c6396-b6b6-47f3-aaab-59b2e2ffe658",
-            "11b63fe9-2c0d-41b1-b42c-402c98a5fecd"
+            "2a7436a0-1fd7-4cd8-871b-58824e804f45",
+            "e60d0f97-b22a-423b-a630-b14ee6999b3b",
+            "e1a3be36-91b4-4762-b4cf-0ff75a20a130",
+            "6024a9ec-4096-4fbb-a07f-2d679f419fe6",
+            "69737fce-177f-450c-93b7-fcffc3e9af60",
+            "0a024ebd-a0ba-4573-84c0-e3eb3ff3a828",
+            "4b9dae28-5fe8-4b0b-98eb-bc5c067eb692",
+            "d698c7c5-3976-4710-a27f-a17f442157da",
+            "4ee9091a-eb76-49e7-a0b1-3df791865ba9"
           ],
           "failures": [
-            "bf7cf81d-d534-4420-8e0e-626237a69649",
-            "7ba6d3c7-63b0-46f5-a2fc-10e50ff60f24",
-            "c04d5118-3d27-47f7-afe1-0f0a2a4c4e65"
+            "fb3a5b75-20df-4c87-976b-99f5d018ea2a",
+            "dadbeb90-79fb-4489-ab48-33e80b75a519",
+            "f43e9763-7d09-4b41-bf3e-314fea3168e7"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 5,
+          "duration": 3,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+          "uuid": "45b7408a-e658-4627-afd4-7c6fba62c923",
           "title": "Capitalize",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/capitalize.test.js",
           "file": "/test/capitalize.test.js",
@@ -308,8 +308,8 @@
               "context": null,
               "code": "expect(capitalize(\"hello\")).to.equal(\"Hello\")",
               "err": {},
-              "uuid": "696d7419-2741-4510-97af-1b95b1e83d0f",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "22589d23-1b1b-4fc5-9dd9-7dcfbf16fcd0",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             },
@@ -326,8 +326,8 @@
               "context": null,
               "code": "expect(capitalize(\"HELLO\")).to.equal(\"Hello\")",
               "err": {},
-              "uuid": "4ba7cc35-8ff1-43aa-8656-bbc4762b94a5",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "2514e19f-a70b-458d-9955-8a3db5d8b304",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             },
@@ -344,8 +344,8 @@
               "context": null,
               "code": "expect(capitalize(\"helloWorld\")).to.equal(\"Helloworld\")",
               "err": {},
-              "uuid": "b77b5126-a8ae-40cb-bada-e99729234c8c",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "29e34abe-8195-48c5-8c84-8c106e5d47e0",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             },
@@ -362,8 +362,8 @@
               "context": null,
               "code": "expect(capitalize(\"\")).to.equal(\"\")",
               "err": {},
-              "uuid": "b0da1e6e-1117-4b5b-aa87-4b07e44a222e",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "3534a84b-a714-4b61-a853-89c1e37ff0e6",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             },
@@ -380,8 +380,8 @@
               "context": null,
               "code": "expect(capitalize(\"a\")).to.equal(\"A\")",
               "err": {},
-              "uuid": "f19140e7-9842-44e1-a483-4c1eb55e5f4c",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "0e603a34-832f-4992-b839-0467421591d8",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             },
@@ -398,8 +398,8 @@
               "context": null,
               "code": "expect(capitalize(\"B\")).to.equal(\"B\")",
               "err": {},
-              "uuid": "3a45cfb5-344c-48e1-824f-637bcbfaa8cd",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "a6fd2cad-c790-4d1a-aa37-0c7863edbc70",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             },
@@ -420,8 +420,8 @@
                 "estack": "AssertionError: expected '1' to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/capitalize.test.js:27:34)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "fbad43ff-25fe-4f6b-a3e5-7b48f3caede4",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "0e571637-ab73-4569-996f-7f1a289cc978",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             },
@@ -442,8 +442,8 @@
                 "estack": "AssertionError: expected '1.1' to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/capitalize.test.js:30:36)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "222906a8-8f5f-4ca4-9edd-92735167c3d7",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "956b3835-5deb-427b-bbc1-77828dbd3a0d",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             },
@@ -451,7 +451,7 @@
               "title": "Test boolean",
               "fullTitle": "Capitalize Test boolean",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -464,35 +464,35 @@
                 "estack": "AssertionError: expected 'True' to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/capitalize.test.js:33:37)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "cf4b070e-8343-48e0-8df2-26c5e8caad8b",
-              "parentUUID": "3385f108-7ddd-49d7-90e0-c0aeda7a971f",
+              "uuid": "a052d9ed-26ad-463c-ba8b-6f4631883f14",
+              "parentUUID": "45b7408a-e658-4627-afd4-7c6fba62c923",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "696d7419-2741-4510-97af-1b95b1e83d0f",
-            "4ba7cc35-8ff1-43aa-8656-bbc4762b94a5",
-            "b77b5126-a8ae-40cb-bada-e99729234c8c",
-            "b0da1e6e-1117-4b5b-aa87-4b07e44a222e",
-            "f19140e7-9842-44e1-a483-4c1eb55e5f4c",
-            "3a45cfb5-344c-48e1-824f-637bcbfaa8cd"
+            "22589d23-1b1b-4fc5-9dd9-7dcfbf16fcd0",
+            "2514e19f-a70b-458d-9955-8a3db5d8b304",
+            "29e34abe-8195-48c5-8c84-8c106e5d47e0",
+            "3534a84b-a714-4b61-a853-89c1e37ff0e6",
+            "0e603a34-832f-4992-b839-0467421591d8",
+            "a6fd2cad-c790-4d1a-aa37-0c7863edbc70"
           ],
           "failures": [
-            "fbad43ff-25fe-4f6b-a3e5-7b48f3caede4",
-            "222906a8-8f5f-4ca4-9edd-92735167c3d7",
-            "cf4b070e-8343-48e0-8df2-26c5e8caad8b"
+            "0e571637-ab73-4569-996f-7f1a289cc978",
+            "956b3835-5deb-427b-bbc1-77828dbd3a0d",
+            "a052d9ed-26ad-463c-ba8b-6f4631883f14"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f5936070-1efa-4aba-a7d4-2043705b7bd4",
+          "uuid": "a2ab25cf-0889-404b-9f31-b0c3a46ebaa3",
           "title": "Filter",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/filter.test.js",
           "file": "/test/filter.test.js",
@@ -516,8 +516,8 @@
                 "estack": "AssertionError: expected [ { user: 'barney', active: true } ] to equal [ { user: 'barney', active: true } ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/filter.test.js:13:54)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": ""
               },
-              "uuid": "d4004c9c-32cf-4cbb-89b2-3055e0e63a7f",
-              "parentUUID": "f5936070-1efa-4aba-a7d4-2043705b7bd4",
+              "uuid": "7c2ffe30-69ce-4e0d-89e3-fcafc16fe2bb",
+              "parentUUID": "a2ab25cf-0889-404b-9f31-b0c3a46ebaa3",
               "isHook": false,
               "skipped": false
             }
@@ -525,7 +525,7 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d4004c9c-32cf-4cbb-89b2-3055e0e63a7f"
+            "7c2ffe30-69ce-4e0d-89e3-fcafc16fe2bb"
           ],
           "pending": [],
           "skipped": [],
