@@ -9,9 +9,9 @@
   "type": "module",
   "scripts": {
     "test": "nyc mocha",
-    "test-c8": "c8 mocha",
+    "test-c8": "c8 --all mocha",
     "c8-coverage": "c8 mocha && c8 report --reporter=html",
-    "c8-only-coverage": "c8 report --reporter=text-lcov",
+    "c8-only-coverage": "c8 --all report --reporter=text-lcov",
     "coveralls": "nyc report --reporter=lcovonly",
     "coverage": "nyc report --reporter=html --reporter=text-summary",
     "c8-coveralls": "c8 report --reporter=text-lcov | coveralls",
