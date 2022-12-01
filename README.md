@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/OpaJaa/swTestingCourse2022/badge.svg?branch=main) !https://github.com/OpaJaa/swTestingCourse2022/actions/workflow/test.yml/badge.svg
+[![Coverage Status](https://coveralls.io/repos/github/OpaJaa/swTestingCourse2022/badge.svg?branch=main) ![workflow](https://github.com/OpaJaa/swTestingCourse2022/actions/workflow/test.yml/badge.svg)
 ](https://coveralls.io/github/OpaJaa/swTestingCourse2022?branch=main)
 
 Instructions:
