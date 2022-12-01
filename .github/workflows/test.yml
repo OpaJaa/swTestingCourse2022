@@ -1,4 +1,4 @@
-name: TestingCourse unit tests
+name: TestingCourse build
 
 on: ["push", "pull_request"]
 
