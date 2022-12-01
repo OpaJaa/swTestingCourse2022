@@ -1,4 +1,6 @@
-[![Coverage Status](https://coveralls.io/repos/github/OpaJaa/swTestingCourse2022/badge.svg?branch=main)](https://coveralls.io/github/OpaJaa/swTestingCourse2022?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/OpaJaa/swTestingCourse2022/badge.svg?branch=main)
+](https://coveralls.io/github/OpaJaa/swTestingCourse2022?branch=main)
+[![Tests Tests](https://github.com/OpaJaa/swTestingCourse2022/actions/workflows/test.yml/badge.svg)](https://github.com/OpaJaa/swTestingCourse2022/actions/workflows/test.yml)
 
 Instructions:
  - clone repo
