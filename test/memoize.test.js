@@ -34,8 +34,17 @@ describe("memoize", () => {
     expect(result2).to.eql([3,4]);
     memoizeFunc.cache.set(object, ['a', 'b'])
     memoizeFunc.cache.set(other, ['c', 'd'])
-    expect(result1).to.eql(['a','b']);
-    expect(result2).to.eql(['c','d']);
+    expect(memoizeFunc(object)).to.eql(['a','b']);
+    expect(memoizeFunc(other)).to.eql(['c','d']);
+ });
+  it("Test output to remain when modifying object", () =>{
+    var anotherObj = {"a" : 5, "b" : 10};
+    const memoizeFunc = memoize(vals);
+    const referMemo = memoizeFunc(anotherObj);
+    anotherObj.a = 10;
+    const result1 = memoizeFunc(anotherObj);
+    expect(result1).to.eql(referMemo);
+    expect(anotherObj).to.eql({"a" : 10, "b" : 10})
  });
 });
 
