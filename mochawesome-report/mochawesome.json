@@ -146,7 +146,7 @@
               "title": "Adds string to positive number",
               "fullTitle": "Add Adds string to positive number",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -282,7 +282,7 @@
           ],
           "pending": [],
           "skipped": [],
-          "duration": 3,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -484,6 +484,7 @@
             "a7448a76-ac78-45fc-b988-ee7cbe952af4",
             "a974e4df-a780-4dd5-a451-956560fa30f6"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
           "duration": 1,
@@ -723,6 +724,7 @@
             "39f8acaf-1fbd-408a-8da4-4d276b843d45",
             "b350c090-a593-4977-a452-6e3c32e90666"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
           "duration": 1,

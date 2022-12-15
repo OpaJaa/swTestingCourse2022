@@ -1,4 +1,4 @@
-name: Node.js Tests
+name: TestingCourse build
 
 on: ["push", "pull_request"]
 

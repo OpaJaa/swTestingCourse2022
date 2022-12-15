@@ -29,7 +29,7 @@ describe("drop", () => {
  });
    it("Test with non-array, char as number", () =>{
     var testDrop = drop(nonArray, 'r');
-    console.log(testDrop);
+    //console.log(testDrop);
     expect(drop(nonArray, 'r')).to.eql(['a','r','r','a','y']);
  });
 });
