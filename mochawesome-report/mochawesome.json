@@ -1,15 +1,15 @@
 {
   "stats": {
     "suites": 10,
-    "tests": 70,
-    "passes": 50,
+    "tests": 69,
+    "passes": 53,
     "pending": 0,
-    "failures": 20,
-    "start": "2022-12-15T12:32:36.319Z",
-    "end": "2022-12-15T12:32:36.336Z",
-    "duration": 17,
-    "testsRegistered": 70,
-    "passPercent": 71.42857142857143,
+    "failures": 16,
+    "start": "2022-12-18T14:21:01.373Z",
+    "end": "2022-12-18T14:21:01.391Z",
+    "duration": 18,
+    "testsRegistered": 69,
+    "passPercent": 76.81159420289855,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "90994699-a4fc-423c-a4f5-e367051c4a2e",
+      "uuid": "5cfcf338-13f1-4b88-bff2-19cf994521f9",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+          "uuid": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
           "title": "Add",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/add.test.js",
           "file": "/test/add.test.js",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "expect(add(0,3)).to.equal(3)",
               "err": {},
-              "uuid": "845a1c5c-9701-4bea-9bb1-77109d7d4057",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "73ebb439-9d3c-4f61-b1c3-a2d76d1a87c9",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "expect(add(3,0)).to.equal(3)",
               "err": {},
-              "uuid": "f3534a40-49e7-43c1-b527-dab767599545",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "6540cc18-976a-4043-8e77-6b0eecf8152c",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -83,8 +83,8 @@
               "context": null,
               "code": "expect(add(0,-3)).to.equal(-3)",
               "err": {},
-              "uuid": "0edc9e49-a598-46e5-a5bd-beebc80e629b",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "37f77a27-1132-454f-8790-222e8219c7f0",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -101,8 +101,8 @@
               "context": null,
               "code": "expect(add(-3,0)).to.equal(-3)",
               "err": {},
-              "uuid": "096057a3-cc5a-4ea0-8ab3-53879130b58f",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "ccb59bbd-aa1e-424f-90cf-9ea25db97646",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -119,8 +119,8 @@
               "context": null,
               "code": "expect(add(3,6)).to.equal(9)",
               "err": {},
-              "uuid": "3c07145e-6d10-4c1c-b075-932a7f15e215",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "5bb8cfc8-233c-4166-963d-6a4f3d1f5e91",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -137,8 +137,8 @@
               "context": null,
               "code": "expect(add(-3,-6)).to.equal(-9)",
               "err": {},
-              "uuid": "24b7704e-6b88-4b76-a8d0-3a9afbcb8352",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "c09a9d4e-ad54-4448-981d-9efde5d99b4c",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -146,7 +146,7 @@
               "title": "Adds string to positive number",
               "fullTitle": "Add Adds string to positive number",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -159,8 +159,8 @@
                 "estack": "AssertionError: expected 'abc6' to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/add.test.js:27:29)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "7eb80ed3-2adb-489b-bc46-c1a60ba8a154",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "9af82068-4117-4913-99e8-4d410e3d6410",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -181,8 +181,8 @@
                 "estack": "AssertionError: expected 6 to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/add.test.js:30:28)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "cfeab7a2-4a3b-4266-bcb0-af5c27ad08e7",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "8a2a23f1-bd3e-4783-bd61-46aabd989f94",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -203,8 +203,8 @@
                 "estack": "AssertionError: expected 7 to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/add.test.js:33:28)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "c4e242bc-6506-4304-989b-66d4182ef4e4",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "d7ccb42e-f590-4d3c-9403-4245e5d8de61",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -221,8 +221,8 @@
               "context": null,
               "code": "expect(add(1.25,2.25)).to.equal(3.5)",
               "err": {},
-              "uuid": "71505806-1227-4fda-a535-e019d36db48c",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "20aa7dc8-3c3d-4c53-b37e-44d48793754c",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -239,8 +239,8 @@
               "context": null,
               "code": "expect(add(1.5,-2.25)).to.equal(-0.75)",
               "err": {},
-              "uuid": "ddb786ca-ea91-4566-8f10-310a11ef7b97",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "1c0a5b6d-b7a9-4012-8e3b-1c4b67ad85b6",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             },
@@ -248,7 +248,7 @@
               "title": "Adds negative decimal number to negative decimal number",
               "fullTitle": "Add Adds negative decimal number to negative decimal number",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -257,28 +257,28 @@
               "context": null,
               "code": "expect(add(-1.5,-2)).to.equal(-3.5)",
               "err": {},
-              "uuid": "81f7d31b-ef18-444e-b8b3-caef91562ac8",
-              "parentUUID": "e2d007e4-c797-43b7-9b92-06c0176abd8d",
+              "uuid": "a8d722e2-b6b7-43c3-a4bf-c54641a8a56d",
+              "parentUUID": "5208d165-f5b5-4d6f-9df8-70e1fc32a733",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "845a1c5c-9701-4bea-9bb1-77109d7d4057",
-            "f3534a40-49e7-43c1-b527-dab767599545",
-            "0edc9e49-a598-46e5-a5bd-beebc80e629b",
-            "096057a3-cc5a-4ea0-8ab3-53879130b58f",
-            "3c07145e-6d10-4c1c-b075-932a7f15e215",
-            "24b7704e-6b88-4b76-a8d0-3a9afbcb8352",
-            "71505806-1227-4fda-a535-e019d36db48c",
-            "ddb786ca-ea91-4566-8f10-310a11ef7b97",
-            "81f7d31b-ef18-444e-b8b3-caef91562ac8"
+            "73ebb439-9d3c-4f61-b1c3-a2d76d1a87c9",
+            "6540cc18-976a-4043-8e77-6b0eecf8152c",
+            "37f77a27-1132-454f-8790-222e8219c7f0",
+            "ccb59bbd-aa1e-424f-90cf-9ea25db97646",
+            "5bb8cfc8-233c-4166-963d-6a4f3d1f5e91",
+            "c09a9d4e-ad54-4448-981d-9efde5d99b4c",
+            "20aa7dc8-3c3d-4c53-b37e-44d48793754c",
+            "1c0a5b6d-b7a9-4012-8e3b-1c4b67ad85b6",
+            "a8d722e2-b6b7-43c3-a4bf-c54641a8a56d"
           ],
           "failures": [
-            "7eb80ed3-2adb-489b-bc46-c1a60ba8a154",
-            "cfeab7a2-4a3b-4266-bcb0-af5c27ad08e7",
-            "c4e242bc-6506-4304-989b-66d4182ef4e4"
+            "9af82068-4117-4913-99e8-4d410e3d6410",
+            "8a2a23f1-bd3e-4783-bd61-46aabd989f94",
+            "d7ccb42e-f590-4d3c-9403-4245e5d8de61"
           ],
           "pending": [],
           "skipped": [],
@@ -288,7 +288,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+          "uuid": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
           "title": "Capitalize",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/capitalize.test.js",
           "file": "/test/capitalize.test.js",
@@ -299,7 +299,7 @@
               "title": "Test all lowercase in a string",
               "fullTitle": "Capitalize Test all lowercase in a string",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -308,8 +308,8 @@
               "context": null,
               "code": "expect(capitalize(\"hello\")).to.equal(\"Hello\")",
               "err": {},
-              "uuid": "b4b4990a-3e6c-4f33-985b-35eee72dbf6e",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "3f721ccb-5751-4ca9-82b1-7003f6fb2c3a",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             },
@@ -326,8 +326,8 @@
               "context": null,
               "code": "expect(capitalize(\"HELLO\")).to.equal(\"Hello\")",
               "err": {},
-              "uuid": "5db23e2c-4a93-4885-8226-3e8e9755622a",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "248d21ba-0eb0-44b4-8549-cc095fc8e8bf",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             },
@@ -344,8 +344,8 @@
               "context": null,
               "code": "expect(capitalize(\"helloWorld\")).to.equal(\"Helloworld\")",
               "err": {},
-              "uuid": "3b68872c-da19-49ff-a612-496b2123fc77",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "a4aad9a5-662b-4d15-886a-8df4f10f682e",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             },
@@ -362,8 +362,8 @@
               "context": null,
               "code": "expect(capitalize(\"\")).to.equal(\"\")",
               "err": {},
-              "uuid": "6d25a206-5562-485a-9b33-5a5d738fd494",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "d8ae4a2c-d7f1-4e25-bf3b-57592de360ea",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             },
@@ -380,8 +380,8 @@
               "context": null,
               "code": "expect(capitalize(\"a\")).to.equal(\"A\")",
               "err": {},
-              "uuid": "d1de8aae-09bc-499e-b06c-39eb2f94bdda",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "91e0321f-e8bc-434f-a2ea-d47554b737a8",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             },
@@ -398,8 +398,8 @@
               "context": null,
               "code": "expect(capitalize(\"B\")).to.equal(\"B\")",
               "err": {},
-              "uuid": "2f70cd7c-af2d-4a6c-9a26-838fe5a15cac",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "949cac69-748c-4d4c-9a19-b3a0f427e319",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             },
@@ -420,8 +420,8 @@
                 "estack": "AssertionError: expected '1' to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/capitalize.test.js:27:34)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "eca7aff1-0dd8-4e7e-85e6-2fcd8a2777b4",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "9699e627-ac1f-4b91-8e48-2c8779685bd7",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             },
@@ -442,8 +442,8 @@
                 "estack": "AssertionError: expected '1.1' to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/capitalize.test.js:30:36)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "c948e8ea-9055-402b-8567-51d8e5d2a8bc",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "d92cdaf8-bfcc-468b-b6f0-ebbe611fbd2d",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             },
@@ -464,35 +464,35 @@
                 "estack": "AssertionError: expected 'True' to equal [Function RangeError]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/capitalize.test.js:33:37)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": null
               },
-              "uuid": "522c58af-ed6a-47d7-88b5-453dafc380bb",
-              "parentUUID": "dd2e7002-e303-4927-9f03-6f4e9efda5c1",
+              "uuid": "950111f0-608c-422d-a8c9-baa05f732729",
+              "parentUUID": "1ee8640d-f3bf-4af1-a8f8-1ffd7e74082f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b4b4990a-3e6c-4f33-985b-35eee72dbf6e",
-            "5db23e2c-4a93-4885-8226-3e8e9755622a",
-            "3b68872c-da19-49ff-a612-496b2123fc77",
-            "6d25a206-5562-485a-9b33-5a5d738fd494",
-            "d1de8aae-09bc-499e-b06c-39eb2f94bdda",
-            "2f70cd7c-af2d-4a6c-9a26-838fe5a15cac"
+            "3f721ccb-5751-4ca9-82b1-7003f6fb2c3a",
+            "248d21ba-0eb0-44b4-8549-cc095fc8e8bf",
+            "a4aad9a5-662b-4d15-886a-8df4f10f682e",
+            "d8ae4a2c-d7f1-4e25-bf3b-57592de360ea",
+            "91e0321f-e8bc-434f-a2ea-d47554b737a8",
+            "949cac69-748c-4d4c-9a19-b3a0f427e319"
           ],
           "failures": [
-            "eca7aff1-0dd8-4e7e-85e6-2fcd8a2777b4",
-            "c948e8ea-9055-402b-8567-51d8e5d2a8bc",
-            "522c58af-ed6a-47d7-88b5-453dafc380bb"
+            "9699e627-ac1f-4b91-8e48-2c8779685bd7",
+            "d92cdaf8-bfcc-468b-b6f0-ebbe611fbd2d",
+            "950111f0-608c-422d-a8c9-baa05f732729"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+          "uuid": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
           "title": "Chunk",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/chunk.test.js",
           "file": "/test/chunk.test.js",
@@ -516,8 +516,8 @@
                 "estack": "AssertionError: expected [ [ 'c', 'd' ], undefined ] to equal [ [ 'a', 'b' ], [ 'c', 'd' ] ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/chunk.test.js:13:38)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": " [\n   [\n+     \"a\"\n+     \"b\"\n+   ]\n+   [\n     \"c\"\n     \"d\"\n   ]\n ]\n"
               },
-              "uuid": "3a935460-161c-42cf-bb68-c830ffbd6239",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "64fcad9d-d681-48f1-a5f6-9812c40f5ae5",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -538,8 +538,8 @@
                 "estack": "AssertionError: expected [ [ 'c', 'd' ], undefined ] to equal [ [ 'a' ], [ 'b' ], [ 'c' ], [ 'd' ] ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/chunk.test.js:18:38)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": " [\n   [\n+     \"a\"\n+   ]\n+   [\n+     \"b\"\n+   ]\n+   [\n     \"c\"\n+   ]\n+   [\n     \"d\"\n   ]\n ]\n"
               },
-              "uuid": "e942a334-370d-4669-b922-3a98db0070c6",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "2948ce43-e264-4637-8504-4dcc51ee05f4",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -547,7 +547,7 @@
               "title": "Test with odd array, positive length",
               "fullTitle": "Chunk Test with odd array, positive length",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -560,8 +560,8 @@
                 "estack": "AssertionError: expected [ [ 'e', undefined, …(2) ], undefined ] to equal [ [ 'a' ], [ 'b' ], [ 'c' ], …(1) ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/chunk.test.js:23:35)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": " [\n   [\n+     \"a\"\n+   ]\n+   [\n+     \"b\"\n+   ]\n+   [\n+     \"c\"\n+   ]\n+   [\n+     \"d\"\n     \"e\"\n-     [undefined]\n-     [undefined]\n-     [undefined]\n   ]\n ]\n"
               },
-              "uuid": "29df0969-b73a-48b4-8867-6abfaf894aa0",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "d3fa765d-e09f-4fa3-9603-acf3af77a93f",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -578,8 +578,8 @@
               "context": null,
               "code": "var testChunk = chunk(emptyArray, 2);\n//console.log(testChunk);\nexpect(chunk(emptyArray, 2)).to.eql([]);",
               "err": {},
-              "uuid": "c4c7c96b-66cd-4f0c-9d7d-81b90579b59b",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "82ff6257-8a1e-49b0-89c3-185fd0ad967b",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -600,8 +600,8 @@
                 "estack": "AssertionError: expected [ [ 'd' ], undefined, undefined, …(1) ] to equal [ [ 'a' ], [ 'b' ], [ 'c' ], [ 'd' ] ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/chunk.test.js:33:35)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": " [\n   [\n+     \"a\"\n+   ]\n+   [\n+     \"b\"\n+   ]\n+   [\n+     \"c\"\n+   ]\n+   [\n     \"d\"\n   ]\n ]\n"
               },
-              "uuid": "056317ff-a2b6-4d3c-a8e3-e6dafbfb71aa",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "4bc5282a-f366-408a-aff5-b78e14624228",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -622,8 +622,8 @@
                 "estack": "AssertionError: expected [ [ 'd' ], undefined, undefined, …(1) ] to deeply equal []\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/chunk.test.js:38:35)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": "- [\n-   [\n-     \"d\"\n-   ]\n- ]\n+ []\n"
               },
-              "uuid": "7d1cc913-80a8-4814-9cc1-22dee6ae3319",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "5877253a-b67b-4159-ad8e-18f02e6e41dd",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -644,8 +644,8 @@
                 "estack": "AssertionError: expected [ [ 'd' ], undefined, undefined, …(1) ] to equal [ [ 'a', 'b' ], [ 'c', 'd' ] ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/chunk.test.js:43:35)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": " [\n   [\n+     \"a\"\n+     \"b\"\n+   ]\n+   [\n+     \"c\"\n     \"d\"\n   ]\n ]\n"
               },
-              "uuid": "0888d521-d369-40be-8f67-9626ea4605e7",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "acddb309-889e-46eb-8529-56a45f4660fa",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -662,8 +662,8 @@
               "context": null,
               "code": "var testChunk = chunk(normalArray, -2);\n//console.log(testChunk);\nexpect(chunk(normalArray, -2)).to.eql([]);",
               "err": {},
-              "uuid": "41b38db9-5791-4cec-be32-44dafb39b7e8",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "20461af2-8cf4-45b8-a899-b8c3b50921af",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -684,8 +684,8 @@
                 "estack": "AssertionError: expected [ [ 'd' ], undefined, undefined, …(1) ] to equal [ [ 'a' ], [ 'b' ], [ 'c' ], [ 'd' ] ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/chunk.test.js:53:40)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": " [\n   [\n+     \"a\"\n+   ]\n+   [\n+     \"b\"\n+   ]\n+   [\n+     \"c\"\n+   ]\n+   [\n     \"d\"\n   ]\n ]\n"
               },
-              "uuid": "ab77c188-1b80-40e0-9d05-eb1decc67469",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "72adb2bf-4005-40a8-a849-d81bb61fa19c",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             },
@@ -702,36 +702,36 @@
               "context": null,
               "code": "var testChunk = chunk(normalArray, 'a');\n//console.log(testChunk);\nexpect(chunk(normalArray, 'a')).to.eql([]);",
               "err": {},
-              "uuid": "513f039e-f8ca-4fc6-8761-48dd855c9a27",
-              "parentUUID": "d77cdee8-c0aa-4cd0-9296-f3d75ff79191",
+              "uuid": "856f1953-ad39-4d31-9cfd-b031bc4d3fd5",
+              "parentUUID": "8cd95bfd-2af0-4f95-84c3-3b9705d47553",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c4c7c96b-66cd-4f0c-9d7d-81b90579b59b",
-            "41b38db9-5791-4cec-be32-44dafb39b7e8",
-            "513f039e-f8ca-4fc6-8761-48dd855c9a27"
+            "82ff6257-8a1e-49b0-89c3-185fd0ad967b",
+            "20461af2-8cf4-45b8-a899-b8c3b50921af",
+            "856f1953-ad39-4d31-9cfd-b031bc4d3fd5"
           ],
           "failures": [
-            "3a935460-161c-42cf-bb68-c830ffbd6239",
-            "e942a334-370d-4669-b922-3a98db0070c6",
-            "29df0969-b73a-48b4-8867-6abfaf894aa0",
-            "056317ff-a2b6-4d3c-a8e3-e6dafbfb71aa",
-            "7d1cc913-80a8-4814-9cc1-22dee6ae3319",
-            "0888d521-d369-40be-8f67-9626ea4605e7",
-            "ab77c188-1b80-40e0-9d05-eb1decc67469"
+            "64fcad9d-d681-48f1-a5f6-9812c40f5ae5",
+            "2948ce43-e264-4637-8504-4dcc51ee05f4",
+            "d3fa765d-e09f-4fa3-9603-acf3af77a93f",
+            "4bc5282a-f366-408a-aff5-b78e14624228",
+            "5877253a-b67b-4159-ad8e-18f02e6e41dd",
+            "acddb309-889e-46eb-8529-56a45f4660fa",
+            "72adb2bf-4005-40a8-a849-d81bb61fa19c"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "14c03919-b2a5-4676-ba75-42e3f363ecc7",
+          "uuid": "4d065947-4cbd-481d-b31b-32ee93d065d9",
           "title": "countBy",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/countBy.test.js",
           "file": "/test/countBy.test.js",
@@ -755,8 +755,8 @@
                 "estack": "AssertionError: expected { true: 1, false: +0 } to equal { true: 2, false: 1 }\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/countBy.test.js:16:65)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": " {\n-   \"false\": 0\n-   \"true\": 1\n+   \"false\": 1\n+   \"true\": 2\n }\n"
               },
-              "uuid": "942aa2dc-efa2-464c-b618-7431e11fe6e5",
-              "parentUUID": "14c03919-b2a5-4676-ba75-42e3f363ecc7",
+              "uuid": "1bbdfc1b-d362-477b-83a3-8a30422f89c3",
+              "parentUUID": "4d065947-4cbd-481d-b31b-32ee93d065d9",
               "isHook": false,
               "skipped": false
             },
@@ -777,8 +777,8 @@
                 "estack": "AssertionError: expected { undefined: 2 } to deeply equal {}\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/countBy.test.js:21:66)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": "- {\n-   \"undefined\": 2\n- }\n+ {}\n"
               },
-              "uuid": "c69f5df5-6b8a-425a-ac70-4119317da070",
-              "parentUUID": "14c03919-b2a5-4676-ba75-42e3f363ecc7",
+              "uuid": "99e2b2bd-7836-484e-a35a-9ca1fb58cdc9",
+              "parentUUID": "4d065947-4cbd-481d-b31b-32ee93d065d9",
               "isHook": false,
               "skipped": false
             },
@@ -795,8 +795,8 @@
               "context": null,
               "code": "var testCountBy = countBy(emptyCollection, value => value.active);\n//console.log(testCountBy);\nexpect(countBy(emptyCollection, value => value.active)).to.eql({});",
               "err": {},
-              "uuid": "5c56e073-a1dc-4d9d-a57f-09df1436cce1",
-              "parentUUID": "14c03919-b2a5-4676-ba75-42e3f363ecc7",
+              "uuid": "f30e9510-a63a-493d-afe1-537337689617",
+              "parentUUID": "4d065947-4cbd-481d-b31b-32ee93d065d9",
               "isHook": false,
               "skipped": false
             },
@@ -813,20 +813,20 @@
               "context": null,
               "code": "var testCountBy = countBy(emptyCollection, wrong => wrong.nothing);\n//console.log(testCountBy);\nexpect(countBy(emptyCollection, wrong => wrong.nothing)).to.eql({});",
               "err": {},
-              "uuid": "89061e2b-1baa-480a-b27a-b98824dcc621",
-              "parentUUID": "14c03919-b2a5-4676-ba75-42e3f363ecc7",
+              "uuid": "d232708d-30c6-4f49-94a3-782b32cb9fdc",
+              "parentUUID": "4d065947-4cbd-481d-b31b-32ee93d065d9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5c56e073-a1dc-4d9d-a57f-09df1436cce1",
-            "89061e2b-1baa-480a-b27a-b98824dcc621"
+            "f30e9510-a63a-493d-afe1-537337689617",
+            "d232708d-30c6-4f49-94a3-782b32cb9fdc"
           ],
           "failures": [
-            "942aa2dc-efa2-464c-b618-7431e11fe6e5",
-            "c69f5df5-6b8a-425a-ac70-4119317da070"
+            "1bbdfc1b-d362-477b-83a3-8a30422f89c3",
+            "99e2b2bd-7836-484e-a35a-9ca1fb58cdc9"
           ],
           "pending": [],
           "skipped": [],
@@ -836,7 +836,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "7711d11f-a9cb-4e24-9797-924663155232",
+          "uuid": "434b6d15-f184-4259-b560-92d223a0f428",
           "title": "difference",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/difference.test.js",
           "file": "/test/difference.test.js",
@@ -856,8 +856,8 @@
               "context": null,
               "code": "var testDifference = difference(normalArray1, normalArray1);\n//console.log(testDifference);\nexpect(difference(normalArray1, normalArray1)).to.eql([]);",
               "err": {},
-              "uuid": "b36df581-d790-4d3d-9877-1bc07ff07863",
-              "parentUUID": "7711d11f-a9cb-4e24-9797-924663155232",
+              "uuid": "5cd5ec37-efde-40f6-a74b-cfd0f0926307",
+              "parentUUID": "434b6d15-f184-4259-b560-92d223a0f428",
               "isHook": false,
               "skipped": false
             },
@@ -874,8 +874,8 @@
               "context": null,
               "code": "var testDifference = difference(normalArray1, normalArray2);\n//console.log(testDifference);\nexpect(difference(normalArray1, normalArray2)).to.eql([1,2]);",
               "err": {},
-              "uuid": "ab144af1-e920-4d30-a714-2cf1e29528a2",
-              "parentUUID": "7711d11f-a9cb-4e24-9797-924663155232",
+              "uuid": "5044b7de-8cea-43a1-98a1-ef3ba161fb52",
+              "parentUUID": "434b6d15-f184-4259-b560-92d223a0f428",
               "isHook": false,
               "skipped": false
             },
@@ -892,8 +892,8 @@
               "context": null,
               "code": "var testDifference = difference(emptyArray, emptyArray);\n//console.log(testDifference);\nexpect(difference(emptyArray, emptyArray)).to.eql([]);",
               "err": {},
-              "uuid": "156bce8c-dc33-44b7-ba20-80393ddecdd9",
-              "parentUUID": "7711d11f-a9cb-4e24-9797-924663155232",
+              "uuid": "7e9582fa-4c34-4f0f-95d7-d8a312dbe16f",
+              "parentUUID": "434b6d15-f184-4259-b560-92d223a0f428",
               "isHook": false,
               "skipped": false
             },
@@ -910,18 +910,18 @@
               "context": null,
               "code": "var testDifference = difference(nonArray, nonArray);\n//console.log(testDifference);\nexpect(difference(nonArray, nonArray)).to.eql([]);",
               "err": {},
-              "uuid": "b316c045-d48d-4207-b882-5bf7dfa8df3e",
-              "parentUUID": "7711d11f-a9cb-4e24-9797-924663155232",
+              "uuid": "d628cc3a-05fa-4339-ae52-b1ab5df93218",
+              "parentUUID": "434b6d15-f184-4259-b560-92d223a0f428",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b36df581-d790-4d3d-9877-1bc07ff07863",
-            "ab144af1-e920-4d30-a714-2cf1e29528a2",
-            "156bce8c-dc33-44b7-ba20-80393ddecdd9",
-            "b316c045-d48d-4207-b882-5bf7dfa8df3e"
+            "5cd5ec37-efde-40f6-a74b-cfd0f0926307",
+            "5044b7de-8cea-43a1-98a1-ef3ba161fb52",
+            "7e9582fa-4c34-4f0f-95d7-d8a312dbe16f",
+            "d628cc3a-05fa-4339-ae52-b1ab5df93218"
           ],
           "failures": [],
           "pending": [],
@@ -932,7 +932,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "15c238f0-eb96-4741-b449-c4ecd7f7e860",
+          "uuid": "887e4b89-14de-4439-ae1a-250de600d7c1",
           "title": "drop",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/drop.test.js",
           "file": "/test/drop.test.js",
@@ -952,8 +952,8 @@
               "context": null,
               "code": "var testDrop = drop(normalArray, 2);\n//console.log(testDrop);\nexpect(drop(normalArray, 2)).to.eql([3,4]);",
               "err": {},
-              "uuid": "dd7b7a1c-ba22-4a2d-90fe-687b9bdbf11c",
-              "parentUUID": "15c238f0-eb96-4741-b449-c4ecd7f7e860",
+              "uuid": "856af167-6a4e-4f1d-b5df-adb24f66acbf",
+              "parentUUID": "887e4b89-14de-4439-ae1a-250de600d7c1",
               "isHook": false,
               "skipped": false
             },
@@ -970,8 +970,8 @@
               "context": null,
               "code": "var testDrop = drop(normalArray, 2);\n//console.log(testDrop);\nexpect(drop(normalArray, 5)).to.eql([]);",
               "err": {},
-              "uuid": "d4c5e6fe-337c-47d7-850c-cbe910eccd39",
-              "parentUUID": "15c238f0-eb96-4741-b449-c4ecd7f7e860",
+              "uuid": "eba7e6c1-0030-4c00-944b-65acf5517a5a",
+              "parentUUID": "887e4b89-14de-4439-ae1a-250de600d7c1",
               "isHook": false,
               "skipped": false
             },
@@ -988,8 +988,8 @@
               "context": null,
               "code": "var testDrop = drop(normalArray, -2);\n//console.log(testDrop);\nexpect(drop(normalArray, 2)).to.eql([3,4]);",
               "err": {},
-              "uuid": "617b5a50-9377-41a9-b9e7-1fd66ed0a898",
-              "parentUUID": "15c238f0-eb96-4741-b449-c4ecd7f7e860",
+              "uuid": "6c24383e-e317-4ce6-8502-24a2182f6c81",
+              "parentUUID": "887e4b89-14de-4439-ae1a-250de600d7c1",
               "isHook": false,
               "skipped": false
             },
@@ -1006,8 +1006,8 @@
               "context": null,
               "code": "var testDrop = drop(emptyArray, 2);\n//console.log(testDrop);\nexpect(drop(emptyArray, 5)).to.eql([]);",
               "err": {},
-              "uuid": "9b372cea-ee31-44ee-a479-1a37b8cd2982",
-              "parentUUID": "15c238f0-eb96-4741-b449-c4ecd7f7e860",
+              "uuid": "6dbd6fcd-6efd-424f-8764-d9938bf569ad",
+              "parentUUID": "887e4b89-14de-4439-ae1a-250de600d7c1",
               "isHook": false,
               "skipped": false
             },
@@ -1015,7 +1015,7 @@
               "title": "Test with non-array, char as number",
               "fullTitle": "drop Test with non-array, char as number",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1024,30 +1024,30 @@
               "context": null,
               "code": "var testDrop = drop(nonArray, 'r');\n//console.log(testDrop);\nexpect(drop(nonArray, 'r')).to.eql(['a','r','r','a','y']);",
               "err": {},
-              "uuid": "e34259ab-36d2-4c3f-b7ce-50b1d269270e",
-              "parentUUID": "15c238f0-eb96-4741-b449-c4ecd7f7e860",
+              "uuid": "95bf44c0-a9a4-42ff-b3ee-11946f8c0f66",
+              "parentUUID": "887e4b89-14de-4439-ae1a-250de600d7c1",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "dd7b7a1c-ba22-4a2d-90fe-687b9bdbf11c",
-            "d4c5e6fe-337c-47d7-850c-cbe910eccd39",
-            "617b5a50-9377-41a9-b9e7-1fd66ed0a898",
-            "9b372cea-ee31-44ee-a479-1a37b8cd2982",
-            "e34259ab-36d2-4c3f-b7ce-50b1d269270e"
+            "856af167-6a4e-4f1d-b5df-adb24f66acbf",
+            "eba7e6c1-0030-4c00-944b-65acf5517a5a",
+            "6c24383e-e317-4ce6-8502-24a2182f6c81",
+            "6dbd6fcd-6efd-424f-8764-d9938bf569ad",
+            "95bf44c0-a9a4-42ff-b3ee-11946f8c0f66"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "b81a6054-76a5-4c80-b390-e3df58d42749",
+          "uuid": "c696c808-5bb7-4d00-9a36-34fd2abec022",
           "title": "Filter",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/filter.test.js",
           "file": "/test/filter.test.js",
@@ -1059,20 +1059,16 @@
               "fullTitle": "Filter Test with empty",
               "timedOut": false,
               "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
-              "code": "expect(filter()).to.equal([[]])",
-              "err": {
-                "message": "AssertionError: expected [ [] ] to equal [ [] ]",
-                "estack": "AssertionError: expected [ [] ] to equal [ [] ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/filter.test.js:13:26)\n    at processImmediate (node:internal/timers:466:21)",
-                "diff": ""
-              },
-              "uuid": "63c37a9e-201f-403b-a60e-9baaa9d31c0a",
-              "parentUUID": "b81a6054-76a5-4c80-b390-e3df58d42749",
+              "code": "expect(filter()).to.eql([[]])",
+              "err": {},
+              "uuid": "5ea606aa-2e2f-4f0a-960d-77b54546b5e0",
+              "parentUUID": "c696c808-5bb7-4d00-9a36-34fd2abec022",
               "isHook": false,
               "skipped": false
             },
@@ -1081,20 +1077,16 @@
               "fullTitle": "Filter Test with correct function",
               "timedOut": false,
               "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
-              "code": "expect(filter(users,({active}) => active)).to.equal([ { user: 'barney', active: true } ])",
-              "err": {
-                "message": "AssertionError: expected [ { user: 'barney', active: true } ] to equal [ { user: 'barney', active: true } ]",
-                "estack": "AssertionError: expected [ { user: 'barney', active: true } ] to equal [ { user: 'barney', active: true } ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/filter.test.js:16:52)\n    at processImmediate (node:internal/timers:466:21)",
-                "diff": ""
-              },
-              "uuid": "77788dc5-19c2-48c3-8b08-ad113bc24d99",
-              "parentUUID": "b81a6054-76a5-4c80-b390-e3df58d42749",
+              "code": "expect(filter(users,({active}) => active)).to.eql([ { user: 'barney', active: true } ])",
+              "err": {},
+              "uuid": "d9a07942-5050-4ee3-be4a-9f6701905bff",
+              "parentUUID": "c696c808-5bb7-4d00-9a36-34fd2abec022",
               "isHook": false,
               "skipped": false
             },
@@ -1103,20 +1095,16 @@
               "fullTitle": "Filter Test with correct array",
               "timedOut": false,
               "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
-              "code": "expect(filter(users,({ user }) => user)).to.equal([ { user: 'barney', active: true },{\"active\": false, \"user\": \"fred\"} ])",
-              "err": {
-                "message": "AssertionError: expected [ …(2) ] to equal [ …(2) ]",
-                "estack": "AssertionError: expected [ …(2) ] to equal [ …(2) ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/filter.test.js:19:49)\n    at processImmediate (node:internal/timers:466:21)",
-                "diff": ""
-              },
-              "uuid": "2a58c939-ca27-4d36-b7df-f819e1da49fd",
-              "parentUUID": "b81a6054-76a5-4c80-b390-e3df58d42749",
+              "code": "expect(filter(users,({ user }) => user)).to.eql([ { user: 'barney', active: true },{\"active\": false, \"user\": \"fred\"} ])",
+              "err": {},
+              "uuid": "629d2c81-a237-445f-a717-1874eb99015a",
+              "parentUUID": "c696c808-5bb7-4d00-9a36-34fd2abec022",
               "isHook": false,
               "skipped": false
             },
@@ -1131,25 +1119,26 @@
               "fail": true,
               "pending": false,
               "context": null,
-              "code": "expect(filter(users,({ user }) => 'barney')).to.equal([ { user: 'barney', active: true } ])",
+              "code": "expect(filter(users,({ user }) => 'barney')).to.eql([ { user: 'barney', active: true } ])",
               "err": {
-                "message": "AssertionError: expected [ …(2) ] to equal [ { user: 'barney', active: true } ]",
-                "estack": "AssertionError: expected [ …(2) ] to equal [ { user: 'barney', active: true } ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/filter.test.js:22:53)\n    at processImmediate (node:internal/timers:466:21)",
+                "message": "AssertionError: expected [ …(2) ] to deeply equal [ { user: 'barney', active: true } ]",
+                "estack": "AssertionError: expected [ …(2) ] to deeply equal [ { user: 'barney', active: true } ]\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/filter.test.js:22:53)\n    at processImmediate (node:internal/timers:466:21)",
                 "diff": "   {\n     \"active\": true\n     \"user\": \"barney\"\n   }\n-   {\n-     \"active\": false\n-     \"user\": \"fred\"\n-   }\n ]\n"
               },
-              "uuid": "b9b3359c-79a0-4465-884a-9cd4ef44db2d",
-              "parentUUID": "b81a6054-76a5-4c80-b390-e3df58d42749",
+              "uuid": "9f992017-713f-40b5-9001-d8f367401d6c",
+              "parentUUID": "c696c808-5bb7-4d00-9a36-34fd2abec022",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
+          "passes": [
+            "5ea606aa-2e2f-4f0a-960d-77b54546b5e0",
+            "d9a07942-5050-4ee3-be4a-9f6701905bff",
+            "629d2c81-a237-445f-a717-1874eb99015a"
+          ],
           "failures": [
-            "63c37a9e-201f-403b-a60e-9baaa9d31c0a",
-            "77788dc5-19c2-48c3-8b08-ad113bc24d99",
-            "2a58c939-ca27-4d36-b7df-f819e1da49fd",
-            "b9b3359c-79a0-4465-884a-9cd4ef44db2d"
+            "9f992017-713f-40b5-9001-d8f367401d6c"
           ],
           "pending": [],
           "skipped": [],
@@ -1159,7 +1148,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "9c94e0f4-cbe7-47d1-9797-464d1becf666",
+          "uuid": "562056d5-5036-4226-8c2b-d00506ce07e0",
           "title": "isArrayLikeObject",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/isArrayLikeObject.test.js",
           "file": "/test/isArrayLikeObject.test.js",
@@ -1179,8 +1168,8 @@
               "context": null,
               "code": "expect(isArrayLikeObject([1,2,3])).to.equal(true)",
               "err": {},
-              "uuid": "7d3c3d5d-4395-4614-8bd5-743ed518e4c8",
-              "parentUUID": "9c94e0f4-cbe7-47d1-9797-464d1becf666",
+              "uuid": "86146d67-b8f5-4b2b-b057-b08f2b01ae1f",
+              "parentUUID": "562056d5-5036-4226-8c2b-d00506ce07e0",
               "isHook": false,
               "skipped": false
             },
@@ -1197,8 +1186,8 @@
               "context": null,
               "code": "expect(isArrayLikeObject(['a', 'b', 'c'])).to.equal(true)",
               "err": {},
-              "uuid": "da9b0b75-2a2d-44e4-88eb-8d6aade53786",
-              "parentUUID": "9c94e0f4-cbe7-47d1-9797-464d1becf666",
+              "uuid": "0048dae4-74f0-4a45-a57b-fb6bbc6136d0",
+              "parentUUID": "562056d5-5036-4226-8c2b-d00506ce07e0",
               "isHook": false,
               "skipped": false
             },
@@ -1215,8 +1204,8 @@
               "context": null,
               "code": "expect(isArrayLikeObject(13)).to.equal(false)",
               "err": {},
-              "uuid": "584bb146-7305-42d9-a79c-f9e027a121e4",
-              "parentUUID": "9c94e0f4-cbe7-47d1-9797-464d1becf666",
+              "uuid": "4ba6a0ea-c6e3-4bf7-a1fa-989a23713ce7",
+              "parentUUID": "562056d5-5036-4226-8c2b-d00506ce07e0",
               "isHook": false,
               "skipped": false
             },
@@ -1233,8 +1222,8 @@
               "context": null,
               "code": "expect(isArrayLikeObject('abc')).to.equal(false)",
               "err": {},
-              "uuid": "0e1d137c-4e78-4ac4-89a6-ada4a7fba192",
-              "parentUUID": "9c94e0f4-cbe7-47d1-9797-464d1becf666",
+              "uuid": "fc46d1fb-5021-47e7-b6f3-47c2b79ac644",
+              "parentUUID": "562056d5-5036-4226-8c2b-d00506ce07e0",
               "isHook": false,
               "skipped": false
             },
@@ -1251,8 +1240,8 @@
               "context": null,
               "code": "expect(isArrayLikeObject()).to.equal(false)",
               "err": {},
-              "uuid": "276247de-5004-4680-84d8-d55d0fb3a0f0",
-              "parentUUID": "9c94e0f4-cbe7-47d1-9797-464d1becf666",
+              "uuid": "b56fc0cf-6c11-40dd-ba90-d0aed0041f1d",
+              "parentUUID": "562056d5-5036-4226-8c2b-d00506ce07e0",
               "isHook": false,
               "skipped": false
             },
@@ -1269,8 +1258,8 @@
               "context": null,
               "code": "expect(isArrayLikeObject(null)).to.equal(false)",
               "err": {},
-              "uuid": "73bf8061-b806-428d-b108-28a015289bfd",
-              "parentUUID": "9c94e0f4-cbe7-47d1-9797-464d1becf666",
+              "uuid": "05008faa-d97b-4a8d-828f-015f0cd4c674",
+              "parentUUID": "562056d5-5036-4226-8c2b-d00506ce07e0",
               "isHook": false,
               "skipped": false
             },
@@ -1287,21 +1276,21 @@
               "context": null,
               "code": "expect(isArrayLikeObject(isArrayLike([1,2,3]))).to.equal(false)",
               "err": {},
-              "uuid": "608ab175-78ba-4564-9e35-ee4ba5faf895",
-              "parentUUID": "9c94e0f4-cbe7-47d1-9797-464d1becf666",
+              "uuid": "d926c047-d01a-416d-8f5c-d4fbf24eb9c1",
+              "parentUUID": "562056d5-5036-4226-8c2b-d00506ce07e0",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7d3c3d5d-4395-4614-8bd5-743ed518e4c8",
-            "da9b0b75-2a2d-44e4-88eb-8d6aade53786",
-            "584bb146-7305-42d9-a79c-f9e027a121e4",
-            "0e1d137c-4e78-4ac4-89a6-ada4a7fba192",
-            "276247de-5004-4680-84d8-d55d0fb3a0f0",
-            "73bf8061-b806-428d-b108-28a015289bfd",
-            "608ab175-78ba-4564-9e35-ee4ba5faf895"
+            "86146d67-b8f5-4b2b-b057-b08f2b01ae1f",
+            "0048dae4-74f0-4a45-a57b-fb6bbc6136d0",
+            "4ba6a0ea-c6e3-4bf7-a1fa-989a23713ce7",
+            "fc46d1fb-5021-47e7-b6f3-47c2b79ac644",
+            "b56fc0cf-6c11-40dd-ba90-d0aed0041f1d",
+            "05008faa-d97b-4a8d-828f-015f0cd4c674",
+            "d926c047-d01a-416d-8f5c-d4fbf24eb9c1"
           ],
           "failures": [],
           "pending": [],
@@ -1312,7 +1301,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+          "uuid": "5305510b-2161-42ad-add8-3e0191292779",
           "title": "isEmpty",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/isEmpty.test.js",
           "file": "/test/isEmpty.test.js",
@@ -1332,8 +1321,8 @@
               "context": null,
               "code": "expect(isEmpty(null)).to.equal(true)",
               "err": {},
-              "uuid": "03f10965-5de7-47c8-a985-aff8d5851007",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "4d271542-ea77-4e0a-9574-c154f1c03ad7",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1350,8 +1339,8 @@
               "context": null,
               "code": "expect(isEmpty()).to.equal(true)",
               "err": {},
-              "uuid": "a9fabad6-8029-4659-9504-4f5453632e9f",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "1f593fa1-2592-412a-91df-a413488d9d0e",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1368,8 +1357,8 @@
               "context": null,
               "code": "expect(isEmpty(true)).to.equal(true)",
               "err": {},
-              "uuid": "6ba8027e-62e1-4fb3-bdf5-ff90806f0ce7",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "c16738eb-6c58-4aa6-a060-c01429baf79b",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1386,8 +1375,8 @@
               "context": null,
               "code": "expect(isEmpty(1)).to.equal(true)",
               "err": {},
-              "uuid": "e004f0e1-c476-4ff3-a7ad-0c83be94a1a5",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "37085220-a1db-468c-8cf2-9267f26936af",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1404,8 +1393,8 @@
               "context": null,
               "code": "expect(isEmpty([])).to.equal(true)",
               "err": {},
-              "uuid": "8ead59b4-1973-483c-8918-2f1718785f8b",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "3ac6422e-528e-421a-bf32-4020cd478fc3",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1422,8 +1411,8 @@
               "context": null,
               "code": "expect(isEmpty('')).to.equal(true)",
               "err": {},
-              "uuid": "3e4008f2-77fc-40fd-9fbd-8e0b040e4239",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "6c98a462-75a6-4649-b0fb-c485edce01fb",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1440,8 +1429,8 @@
               "context": null,
               "code": "expect(isEmpty('abc')).to.equal(false)",
               "err": {},
-              "uuid": "1d129df9-6240-4e83-81cd-c3b548b3b8d3",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "72158faa-02a8-4671-8a68-451131e99364",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1458,8 +1447,8 @@
               "context": null,
               "code": "expect(isEmpty([1,2,3])).to.equal(false)",
               "err": {},
-              "uuid": "897c889a-7d42-46ee-a842-66a2c126b704",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "00681f72-62b9-47f2-8709-1fdb0c7fc448",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1476,8 +1465,8 @@
               "context": null,
               "code": "expect(isEmpty({ 'a': 1 })).to.equal(false)",
               "err": {},
-              "uuid": "b0a4360d-e089-4ac4-8976-9d825b1150d6",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "7e738854-d779-4666-b527-7b076a004845",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             },
@@ -1485,7 +1474,7 @@
               "title": "Test with map",
               "fullTitle": "isEmpty Test with map",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -1494,59 +1483,35 @@
               "context": null,
               "code": "expect(isEmpty('a', 1)).to.equal(false)",
               "err": {},
-              "uuid": "a1e45124-4508-44c7-ac3f-cf8a9cac1d62",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Test with map",
-              "fullTitle": "isEmpty Test with map",
-              "timedOut": false,
-              "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "expect(isEmpty()).to.equal(false)",
-              "err": {
-                "message": "AssertionError: expected true to equal false",
-                "estack": "AssertionError: expected true to equal false\n    at Context.<anonymous> (file:///Users/opa/testCourse/swTestingCourse2022/test/isEmpty.test.js:40:26)\n    at processImmediate (node:internal/timers:466:21)",
-                "diff": "- true\n+ false\n"
-              },
-              "uuid": "e174189e-c0ab-413d-8275-9a5c35128f42",
-              "parentUUID": "d1796a26-eb8a-4c73-85a1-04111ae07730",
+              "uuid": "7a5ec4a9-da09-409d-9b90-b084e1571b71",
+              "parentUUID": "5305510b-2161-42ad-add8-3e0191292779",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "03f10965-5de7-47c8-a985-aff8d5851007",
-            "a9fabad6-8029-4659-9504-4f5453632e9f",
-            "6ba8027e-62e1-4fb3-bdf5-ff90806f0ce7",
-            "e004f0e1-c476-4ff3-a7ad-0c83be94a1a5",
-            "8ead59b4-1973-483c-8918-2f1718785f8b",
-            "3e4008f2-77fc-40fd-9fbd-8e0b040e4239",
-            "1d129df9-6240-4e83-81cd-c3b548b3b8d3",
-            "897c889a-7d42-46ee-a842-66a2c126b704",
-            "b0a4360d-e089-4ac4-8976-9d825b1150d6",
-            "a1e45124-4508-44c7-ac3f-cf8a9cac1d62"
+            "4d271542-ea77-4e0a-9574-c154f1c03ad7",
+            "1f593fa1-2592-412a-91df-a413488d9d0e",
+            "c16738eb-6c58-4aa6-a060-c01429baf79b",
+            "37085220-a1db-468c-8cf2-9267f26936af",
+            "3ac6422e-528e-421a-bf32-4020cd478fc3",
+            "6c98a462-75a6-4649-b0fb-c485edce01fb",
+            "72158faa-02a8-4671-8a68-451131e99364",
+            "00681f72-62b9-47f2-8709-1fdb0c7fc448",
+            "7e738854-d779-4666-b527-7b076a004845",
+            "7a5ec4a9-da09-409d-9b90-b084e1571b71"
           ],
-          "failures": [
-            "e174189e-c0ab-413d-8275-9a5c35128f42"
-          ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "d364050f-748b-47de-8369-93b79291984c",
+          "uuid": "03810aa8-5f63-4c09-a89c-b52600cdc2fd",
           "title": "memoize",
           "fullFile": "/Users/opa/testCourse/swTestingCourse2022/test/memoize.test.js",
           "file": "/test/memoize.test.js",
@@ -1566,8 +1531,8 @@
               "context": null,
               "code": "const memoizeFunc = memoize(vals);\nvar result1 = memoizeFunc(object);\nvar result2 = memoizeFunc(other);\nexpect(result1).to.eql([1,2]);\nexpect(result2).to.eql([3,4]);",
               "err": {},
-              "uuid": "8dbb9e88-5e6e-4b01-b71c-fc41d25c1bb3",
-              "parentUUID": "d364050f-748b-47de-8369-93b79291984c",
+              "uuid": "73cb0a72-dd8a-4bbd-b338-0d01180f0098",
+              "parentUUID": "03810aa8-5f63-4c09-a89c-b52600cdc2fd",
               "isHook": false,
               "skipped": false
             },
@@ -1584,8 +1549,8 @@
               "context": null,
               "code": "expect(()=> {(memoize(\"Memoize\"))}).to.throw('Expected a function');\nexpect(()=> {(memoize(1))}).to.throw('Expected a function');\nexpect(()=> {(memoize(undefined))}).to.throw('Expected a function');",
               "err": {},
-              "uuid": "e29f8208-3566-4e0f-a48b-7aa46f93be1a",
-              "parentUUID": "d364050f-748b-47de-8369-93b79291984c",
+              "uuid": "09aeebc3-2a55-4491-a922-51d1078b358f",
+              "parentUUID": "03810aa8-5f63-4c09-a89c-b52600cdc2fd",
               "isHook": false,
               "skipped": false
             },
@@ -1602,8 +1567,8 @@
               "context": null,
               "code": "const memoizeFunc = memoize(vals);\nvar result1 = memoizeFunc(object);\nvar result2 = memoizeFunc(other);\nexpect(result1).to.eql([1,2]);\nexpect(result2).to.eql([3,4]);\nmemoizeFunc.cache.set(object, ['a', 'b'])\nmemoizeFunc.cache.set(other, ['c', 'd'])\nexpect(memoizeFunc(object)).to.eql(['a','b']);\nexpect(memoizeFunc(other)).to.eql(['c','d']);",
               "err": {},
-              "uuid": "7cac2ef9-dd47-4e9e-8ee6-b60ba72ba567",
-              "parentUUID": "d364050f-748b-47de-8369-93b79291984c",
+              "uuid": "39732b8a-5691-49e9-b229-6b9db1ddbd4c",
+              "parentUUID": "03810aa8-5f63-4c09-a89c-b52600cdc2fd",
               "isHook": false,
               "skipped": false
             },
@@ -1620,18 +1585,18 @@
               "context": null,
               "code": "var anotherObj = {\"a\" : 5, \"b\" : 10};\nconst memoizeFunc = memoize(vals);\nconst referMemo = memoizeFunc(anotherObj);\nanotherObj.a = 10;\nconst result1 = memoizeFunc(anotherObj);\nexpect(result1).to.eql(referMemo);\nexpect(anotherObj).to.eql({\"a\" : 10, \"b\" : 10})",
               "err": {},
-              "uuid": "780f7d10-38a8-43f9-ba3a-255bcc8acfcd",
-              "parentUUID": "d364050f-748b-47de-8369-93b79291984c",
+              "uuid": "67f2e893-4a59-44f8-af8b-4d1b65e1257a",
+              "parentUUID": "03810aa8-5f63-4c09-a89c-b52600cdc2fd",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "8dbb9e88-5e6e-4b01-b71c-fc41d25c1bb3",
-            "e29f8208-3566-4e0f-a48b-7aa46f93be1a",
-            "7cac2ef9-dd47-4e9e-8ee6-b60ba72ba567",
-            "780f7d10-38a8-43f9-ba3a-255bcc8acfcd"
+            "73cb0a72-dd8a-4bbd-b338-0d01180f0098",
+            "09aeebc3-2a55-4491-a922-51d1078b358f",
+            "39732b8a-5691-49e9-b229-6b9db1ddbd4c",
+            "67f2e893-4a59-44f8-af8b-4d1b65e1257a"
           ],
           "failures": [],
           "pending": [],
