@@ -36,7 +36,4 @@ describe("isEmpty", () => {
  it("Test with map", () =>{
     expect(isEmpty('a', 1)).to.equal(false)
  });
- it("Test with map", () =>{
-    expect(isEmpty()).to.equal(false)
- });
 })
